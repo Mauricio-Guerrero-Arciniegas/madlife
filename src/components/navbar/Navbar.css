@@ -1,0 +1,32 @@
+*{
+    background-image: url(/public/assets/imagenes/texture.jpg);
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row nowrap;
+    border: 10px 10px solid white;
+}
+.navbar_img{
+    width: 3%;
+    background-color: rgb(9, 10, 105);
+}
+.navbar_ul{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    list-style: none;
+    color: white
+}
+.navbar_li{
+    
+}
+.navbar_link{
+    color: rgb(202, 39, 39);
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    font-size: 1.7em;
+}
+.navbar_link:hover{
+    color: rgba(153, 153, 29, 0.747);
+}

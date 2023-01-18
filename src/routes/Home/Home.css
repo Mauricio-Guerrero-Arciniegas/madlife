@@ -1,0 +1,15 @@
+.home_container{
+   display: flex;
+   flex-flow: column;
+   
+   align-items: center;
+}
+
+.home_img{
+    margin: 2em 0;
+    width: 50%;
+    border-radius: 10px;
+    opacity: 50%;
+    box-shadow: 1em 1em black;
+    
+}

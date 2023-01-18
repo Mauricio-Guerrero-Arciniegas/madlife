@@ -1,0 +1,11 @@
+.tienda_container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.tienda_img{
+    width: 50%;
+    border-radius: 10px;
+    margin: 1em 0;
+    box-shadow: 1em 1em 1em black;
+}
