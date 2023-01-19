@@ -12,7 +12,7 @@ export default function Tienda() {
           <img className='tienda_img' src="./assets/imagenes/gorra2.jpg" alt="" />
           <img className='tienda_img' src="./assets/imagenes/shirt.jpg" alt="" />
         </div>
-        <p>Articulos</p>
+        
     </div>
   )
 }
