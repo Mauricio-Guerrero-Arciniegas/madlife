@@ -15,6 +15,7 @@ export default function Tienda() {
   return (
     <div>
         <Navbar/>
+        <img className='description' src="../assets/imagenes/web-06.jpg" alt="" />
         <Header
          allProducts={allProducts}
          setAllProducts={setAllProducts}
