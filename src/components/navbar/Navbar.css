@@ -1,7 +1,3 @@
-*{
-    background-image: url(/public/assets/imagenes/texture.jpg);
-}
-
 .navbar{
     display: flex;
     flex-flow: row nowrap;
