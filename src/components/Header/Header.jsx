@@ -27,10 +27,11 @@ export const Header = ({
 
   return (
     <header>
-      
-
       <div className="container-icon">
-        <div className="container-cart-icon" onClick={() => setActive(!active)}>
+        <div
+          className={`container-cart-icon ${active ? "active" : ""}`}
+          onClick={() => setActive(!active)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,9 +51,7 @@ export const Header = ({
           </div>
         </div>
 
-        <div
-          className={`container-cart-products ${active ? "" : "hidden-cart"}`}
-        >
+        <div className={`container-cart-products ${active ? "active" : ""}`}>
           {allProducts.length ? (
             <>
               <div className="row-product">

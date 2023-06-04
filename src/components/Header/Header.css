@@ -1,0 +1,109 @@
+/* Estilos generales */
+.container-icon {
+    position: relative;
+  }
+  .container-items {
+    border: 1px solid red;
+  }
+  
+  .container-cart-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon-cart {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .count-products {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  .container-cart-products {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: none;
+    min-width: 200px;
+  }
+  
+  .container-cart-products.active {
+    display: block;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 767px) {
+    .container-cart-products {
+      top: initial;
+      bottom: -100%;
+      min-width: 100%;
+      max-height: 50vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 10px 5px;
+      border-radius: 5px;
+    }
+  
+    .container-cart-products.active {
+      bottom: 100%;
+    }
+  
+    .cart-product {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .info-cart-product {
+      flex-grow: 1;
+      margin-right: 10px;
+    }
+  
+    .cantidad-producto-carrito,
+    .titulo-producto-carrito,
+    .precio-producto-carrito {
+      font-size: 14px;
+    }
+  
+    .icon-close {
+      width: 16px;
+      height: 16px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  
+    .cart-total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .btn-clear-all {
+      display: block;
+      width: 100%;
+      padding: 8px 16px;
+      background-color: #ff0000;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  
+    .cart-empty {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  

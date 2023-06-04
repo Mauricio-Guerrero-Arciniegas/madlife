@@ -1,19 +1,27 @@
-.imagen {
-    width: 100%;
-}
-.tienda_container{
+/* Estilos generales */
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imagen {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .content {
     display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-.tienda_img{
-    width: 50%;
-    border-radius: 10px;
-    margin: 1em 0;
-    box-shadow: 1em 1em 1em black;
-}
-.description{
-    margin-top: 8em  ;
-    border-radius: 10px;
-    box-shadow: 1em 1em 1em black;
-}
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 767px) {
+    .content {
+      flex-direction: column;
+    }
+  }
+  
