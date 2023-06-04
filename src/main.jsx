@@ -1,26 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-import  Home from "./routes/Home/Home"
-import Tienda from './routes/Tienda/Tienda'
+import  Inicio from "./routes/Inicio/Inicio"
+import Medicamentos from './routes/Medicamentos/Medicamentos'
 import Contacto from './routes/Contacto/Contacto'
-import Eventos from './routes/Eventos/Eventos'
+import Portafolio from './routes/Portafolio/Portafolio'
+import Enfermedades from './routes/Enfermedades/Enfermedades'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home/>,
+    element: <Inicio/>,
     errorElement: <h1>Ruta Incorrecta</h1>
   },
   {
-    path: '/tienda',
-    element: <Tienda/>,
+    path: '/medicamentos',
+    element: <Medicamentos/>,
   },
   {
-    path: '/eventos',
-    element: <Eventos/>,
+    path: '/portafolio',
+    element: <Portafolio/>,
+  },
+  {
+    path: '/enfermedades',
+    element: <Enfermedades/>,
   },
   {
     path: '/contacto',

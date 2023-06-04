@@ -13,7 +13,7 @@
     --container-width-sm: 90%;
  }
 
-.container.contact__container {
+.contact__container {
     width: 68%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -27,7 +27,7 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: var(--color-primary-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;

@@ -4,9 +4,9 @@ import Header from "../../components/Header/Header"
 import ProductList from '../../components/ProductList/ProductList';
 
 import Navbar from "../../components/navbar/Navbar";
-import './Tienda.css'
+import './Medicamentos.css'
 
-export default function Tienda() {
+export default function Medicamentos() {
 
   const [allProducts, setAllProducts] = useState([]);
   const [total, setTotal] = useState(0);
@@ -15,7 +15,8 @@ export default function Tienda() {
   return (
     <div>
         <Navbar/>
-        <img className='description' src="../assets/imagenes/web-06.jpg" alt="" />
+        <h2 className='titulo'>Medicamentos</h2>
+        <img className='imagen' src="../assets/imagenes/web-06.jpg" alt="" />
         <Header
          allProducts={allProducts}
          setAllProducts={setAllProducts}

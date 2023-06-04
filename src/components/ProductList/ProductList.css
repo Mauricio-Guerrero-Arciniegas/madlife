@@ -5,7 +5,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+@font-face {
+    font-family: 'DEPALMA Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DEPALMA Regular'), url('https:/DEPALMA.woff') format('woff');
+    }
 
 body{
     margin: 0 auto;
@@ -143,6 +151,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
 }
 
 .item{
@@ -155,7 +164,7 @@ header{
 
 .item img{
     width: 100%;
-    height: 300px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all .5s;
@@ -166,7 +175,7 @@ header{
 }
 
 .item:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .info-product{
@@ -199,4 +208,12 @@ header{
 
 .hidden{
     display: none;
+}
+.container-items_h2{
+    color: red;
+   
+}
+.description-item{
+    
+    line-height: 1.1em;
 }

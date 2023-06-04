@@ -3,6 +3,7 @@ export const data = [
 		id: 1,
 		img: 'assets/imagenes/MADLIFE-06.jpg',		
 		nameProduct: 'Black Shirt',
+		description: 'Camiseta en algodón pima, estampados en serigrafía.',
 		price: 100000,
 		quantity: 1,
 	},
