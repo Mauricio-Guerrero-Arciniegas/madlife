@@ -7,12 +7,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'DEPALMA Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('DEPALMA Regular'), url('https:/DEPALMA.woff') format('woff');
-}
+
 
 body {
   margin: 0 auto;
